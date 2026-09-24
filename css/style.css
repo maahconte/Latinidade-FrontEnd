@@ -105,11 +105,9 @@ header {
     align-items: center;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             rgba(25, 20, 15, 0.75),
-            rgba(25, 20, 15, 0.20)
-        ),
+            rgba(25, 20, 15, 0.20)),
         url("../img/inicial.jpeg");
 
     background-size: cover;
@@ -179,7 +177,7 @@ header {
 
 .btn-latinidade {
 
-    display: inline-block;  
+    display: inline-block;
 
     background: var(--primary);
 
@@ -420,6 +418,7 @@ header {
 
     transition: .3s;
 
+
 }
 
 
@@ -435,115 +434,93 @@ header {
 ================================ */
 
 .tourism-card {
-
     overflow: hidden;
-
 }
 
 
 .tourism-image {
-
     height: 220px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     font-size: 80px;
-
     background-size: cover;
-
 }
 
 
 .tourism-image.brasil {
-
-    background: linear-gradient(135deg,
-
-            #69a86b,
-
-            #e7c84c);
-
+    background: linear-gradient(135deg, #69a86b, #e7c84c);
 }
 
 
 .tourism-image.peru {
-
-    background: linear-gradient(135deg,
-
-            #8f6d50,
-
-            #d8b687);
-
+    background: linear-gradient(135deg, #8f6d50, #d8b687);
 }
 
 
 .tourism-image.chile {
-
-    background: linear-gradient(135deg,
-
-            #d5a65e,
-
-            #e8d8a9);
-
+    background: linear-gradient(135deg, #d5a65e, #e8d8a9);
 }
 
 
 .tourism-image.argentina {
-
-    background: linear-gradient(135deg,
-
-            #77a6c9,
-
-            #d8e6ec);
-
+    background: linear-gradient(135deg, #77a6c9, #d8e6ec);
 }
 
 
 .tourism-image.colombia {
-
-    background: linear-gradient(135deg,
-
-            #d9a84b,
-
-            #6f9c6a);
-
+    background: linear-gradient(135deg, #d9a84b, #6f9c6a);
 }
 
 
 .tourism-image.bolivia {
+    background: linear-gradient(135deg, #ddd5b8, #9e9b86);
+}
 
-    background: linear-gradient(135deg,
 
-            #ddd5b8,
+.tourism-image.equador {
+    background: linear-gradient(135deg, #d9b84c, #6f9c6a);
+}
 
-            #9e9b86);
 
+.tourism-image.guiana {
+    background: linear-gradient(135deg, #6f9c6a, #d8b84c);
+}
+
+
+.tourism-image.paraguai {
+    background: linear-gradient(135deg, #d8a6a6, #e8d8d8);
+}
+
+
+.tourism-image.suriname {
+    background: linear-gradient(135deg, #6f9c6a, #d8c45c);
+}
+
+
+.tourism-image.uruguai {
+    background: linear-gradient(135deg, #8bb5d1, #e8e8df);
+}
+
+
+.tourism-image.venezuela {
+    background: linear-gradient(135deg, #d9b84c, #8c9fbd);
 }
 
 
 .tourism-content span {
-
     font-size: 11px;
-
     letter-spacing: 2px;
-
     color: var(--primary);
-
     font-weight: 700;
-
 }
 
 
 .tourism-content h2 {
-
     font-family: 'Playfair Display', serif;
-
     font-size: 27px;
-
 }
+
 
 
 /* ================================
