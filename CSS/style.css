@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1800&q=80');
 
 
 :root {
@@ -97,29 +97,24 @@ header {
 /* ================================
    HERO
 ================================ */
-
 .hero {
 
     min-height: 620px;
 
     display: flex;
-
     align-items: center;
 
     background:
-
-        linear-gradient(90deg,
-
-            rgba(25, 20, 15, .85),
-
-            rgba(25, 20, 15, .25)),
-
-        url("https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1800&q=80");
+        linear-gradient(
+            90deg,
+            rgba(25, 20, 15, 0.75),
+            rgba(25, 20, 15, 0.20)
+        ),
+        url("../img/inicial.jpeg");
 
     background-size: cover;
-
     background-position: center;
-
+    background-repeat: no-repeat;
 }
 
 
@@ -794,14 +789,21 @@ footer p {
     }
 
 
-    .hero {
+    @media (max-width: 767.98px) {
 
-        min-height: 550px;
+        .hero {
+            min-height: 650px;
+            background-position: center center;
+        }
 
-        background-position: 60% center;
+        .display-title {
+            font-size: 55px;
+        }
 
+        .hero p {
+            font-size: 16px;
+        }
     }
-
 
     .display-title {
 
