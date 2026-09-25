@@ -956,3 +956,42 @@ footer p {
     }
 
 }
+
+}
+
+/* CORREÇÃO MENU MOBILE */
+@media (max-width: 991.98px) {
+
+    header {
+        position: relative;
+        z-index: 9999;
+        background: #fff;
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 9999;
+        background: #fff;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        background: #fff;
+    }
+
+    .navbar-nav {
+        position: static !important;
+        left: auto !important;
+        transform: none !important;
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: block;
+        margin: 0 !important;
+        padding: 12px 15px !important;
+        color: #403b34;
+    }
+}
